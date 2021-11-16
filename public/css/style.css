@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'BiotifBlack';
+  src: url('../resources/fonts/Biotif-Black.ttf');
+}
+
+@font-face {
+  font-family: 'BiotifBold';
+  src: url('../resources/fonts/Biotif-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'BiotifBook';
+  src: url('../resources/fonts/Biotif-Book.ttf');
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+table, tr, td{
+  border: 1px solid rgb(177, 177, 177);
+  border-collapse: collapse;
+}
+
+h3 {
+  padding: 2px;
+  margin: 10px;
+}
+
+#Bodoni, #Bodoni-row > h3 {
+  font-size: 40px;
+  font-family: 'Bodoni';
+  letter-spacing: 1px;
+}
+
+#Helvetica, #Helvetica-row > h3 {
+  font-size: 40px;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+#Futura, #Futura-row > h3 {
+  font-size: 40px;
+  font-family: Futura, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+#Garamond, #Garamond-row > h3 {
+  font-size: 40px;
+  font-family: Garamond;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+
+#Biotif, #Biotif-row > h3 {
+  font-size: 40px;
+  font-family: 'BiotifBold';
+  letter-spacing: 1px;
+}
+
+.placeholder-row{
+  min-width: 600px;
+}

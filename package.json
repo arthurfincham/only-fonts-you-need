@@ -1,0 +1,16 @@
+{
+  "name": "only-fonts-you-need",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "esbuild index.js --bundle --outfile=./public/js/bundle.js --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esbuild": "^0.13.14"
+  }
+}
